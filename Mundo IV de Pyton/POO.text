@@ -1,0 +1,158 @@
+Python Orientado a Objetos: O Guia Definitivo para Iniciantes
+POO com Python
+    Pilares
+        > Abstração
+            Em Programação Orientada a Objetos (POO), a Abstração é o pilar que serve para esconder a 
+            complexidade e mostrar apenas o essencial.
+            Pense na abstração como o painel de um carro: para dirigir, 
+            você só precisa interagir com o volante, os pedais e as marchas (a interface simples). 
+            Você não precisa entender como a injeção eletrônica ou o pistão do motor funcionam por 
+            dentro (a complexidade oculta).
+            No Python, nós fazemos isso focando no o que um objeto faz, e não em como ele faz.
+            Abstração no código: Classes Abstratas
+            Para aplicar a abstração de forma rigorosa em Python, usamos o módulo nativo abc 
+            (que significa Abstract Base Classes).
+            Uma classe abstrata é como um "molde" ou um contrato: ela define quais métodos as 
+            classes filhas devem ter, mas não explica como esses métodos funcionam. 
+            Além disso, você não pode criar um objeto diretamente dela.
+            Veja este exemplo prático: imagine que estamos criando um sistema para ligar eletrodomésticos.
+        > Encapsulamento
+        > Heranca
+        > Polimorfismo
+    Conceitos
+        > Getters
+        > Setters
+        > self e super
+        > Dunder methods
+        > Associação
+        > Agregação
+        > Composição
+    Bancos de Dados
+        > Acesso a bases locais
+        > SQLite3
+        > Object-Relational Mapper
+Biliografia Recomendada
+    1 - Introdução a Programação comPython
+    2 - Objeto-Orientado PYTHON
+    3 - Python 3 - O guia compreencivo
+============================================================================
+Crise do Software: O motivo do surgimento da POO - Curso Python POO: Aula 01
+   POO - Programação Orientado Objeto
+       > Representar elementos do mundo real nos sistemas computacionais   
+   OOP - Object Oriented Analysis and Design
+   Crise do Software em 1960?
+         FRASE -> Platão diz: "A necessidade é a mãe da invenção"
+         FRASE -> Nietzsche diz: "É preciso ter o caos dentro de si 
+         para dar à luz uma estrela dançante"
+    LINHA DO TEMPO:
+        * 1950 -> Linguagens de baixo nível
+        * 1955 -> Linguagens Lineares
+        * 1960 -> Linguagens Estruturadas
+        * 1965 -> Linguagens Modulares
+        * 1970 -> Linguagens Orientadas a Objetos
+            CRIADORES:
+                * Kristen Nygaard -> Objetos -> simula
+                * Alan Curtis Kay -> Dynabook -> Xerox -> linguagem
+                Smalltalk
+                * Guido Van Rossum -> Python
+    Matemático / Físico -> Linguagens de Alto Nível -> Edsger wybe Dijkstra
+    UML -> Unified Modeling Language
+    ==========================================================================
+    DESAFIO 001:
+               >>> Em que década aconteceu a "Crise do Software" no 
+               mercardo?
+               A >> 1950
+               B >> 1960 *
+               C >> 1980
+               D >> 2000
+    DESAFIO 002:
+               >>> Qual das características a seguir identifica as 
+               primeiras linguagens de Lineares?
+               A >> Maior modularidade
+               B >> Desvios forçados com GOTO
+               C >> Estruturas de controle
+               D >> Instruções de baixo nível
+    DESAFIO 003:
+               >>> Quem foi o criador da Smalltalk, uma das primeiras
+               liguagens?
+               A >> Edsger Dijkstra
+               B >> Guido Van Rossum
+               C >> Alan Kay *
+               D >> Kristen Nygaard
+    DESAFIO 004:
+               >>> A linguagem Simula foi um superconjunto de que
+               outra linguagem?
+               A >> ALGOL *
+               B >> C
+               C >> Smalltalk
+               D >> Python
+    DESAFIO 005:
+               >>> Na sigla OOAD, as últimas duas letras significam
+               A >> Algol / Dashboard
+               B >> Algorithms / Digital
+               C >> Analytisis / Default
+               D >> Analysis / Design
+==============================================================================
+As 6 VANTAGENS da POO: Programação Orientada a Objetos - Curso Python POO: Aula 02
+ TERMO COMERNada (características DE UM SISTEMA ORIENTADO OBJETO)
+    > Confiável
+        >>> O isolamento entre as partes gera algo mais segura. Ao alterar
+        uma das parte, nenhuma outra é afetada.
+    > Oportuno
+        >>> Ao dividir tudo em partes, cada uma delas pode ser desenvol-
+        vida em parelelo.
+    > Manutenível
+        >>> Atualizar é mais fácil. Uma pequena alteração vai beneficiar
+        todas as partes relacionadas.
+    > Extensível
+        >>> Um sistema não deve ser estático. Tudo deve mudar e crecer
+        para permanecer útil.
+    > Reutilizável
+        >>> Objetos que foram criados para um sistema podem ser oprovei-
+        tados em outros sistemas.
+    > Natural
+        >>> Mais fácil de entender. Maior atenção às funcionalidades de
+        implementação.
+==============================================================================
+    DESAFIO 006:
+                >>> Criei um sistema para Escola, ao criar outro sistema
+                para Academia, parte do trabalho já estará feita, pois tenho
+                alunos nos dois.
+                A >> Confiável
+                B >> Natural
+                C >> Manutenível
+                D >> Reutilizavel
+    DESAFIO 007:
+                >>> Se precisar adicionar uma nova funcionalidade ao 
+                sistema, consigo fazer isso com grande facilidade?
+                A >> Natural
+                B >> Extensível
+                C >> Reutilizável
+                D >> Oportuno
+    DESAFIO 008:
+                >>> Posso desenvolover várias funções que dependem
+                uma da outra ao mesmo tempo se o planejamento for 
+                seguido.
+                A >> Oportuno
+                B >> Reutilizável
+                C >> Confiável
+                D >> Manutenível
+    DESAFIO 009:
+                >>> O código fica muito simples de ler e de compreender,
+                já que não preciso saber os detalhes de funcionamento ao 
+                programar.
+                A >> Natural
+                B >> Extensível
+                C >> Oportuno
+                D >> Reutilizável
+    DESAFIO 010:
+                >>> Posso uma funcionalidade trabalha e tudo continua 
+                funcionando como antes.
+                A >> Oportuno
+                B >> Reutilizável
+                C >> Confiável
+                D >> Natural
+================================================================================
+POO para Iniciantes: Guia Definitivo - Classes, Objetos, Atributos, etc - Curso Python POO: Aula 03
+
+
