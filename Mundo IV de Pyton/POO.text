@@ -69,7 +69,7 @@ Crise do Software: O motivo do surgimento da POO - Curso Python POO: Aula 01
                >>> Qual das características a seguir identifica as 
                primeiras linguagens de Lineares?
                A >> Maior modularidade
-               B >> Desvios forçados com GOTO
+               B >> Desvios forçados com GOTO *
                C >> Estruturas de controle
                D >> Instruções de baixo nível
     DESAFIO 003:
@@ -91,7 +91,7 @@ Crise do Software: O motivo do surgimento da POO - Curso Python POO: Aula 01
                A >> Algol / Dashboard
                B >> Algorithms / Digital
                C >> Analytisis / Default
-               D >> Analysis / Design
+               D >> Analysis / Design *
 ==============================================================================
 As 6 VANTAGENS da POO: Programação Orientada a Objetos - Curso Python POO: Aula 02
  TERMO COMERNada (características DE UM SISTEMA ORIENTADO OBJETO)
@@ -118,14 +118,14 @@ As 6 VANTAGENS da POO: Programação Orientada a Objetos - Curso Python POO: Aul
                 >>> Criei um sistema para Escola, ao criar outro sistema
                 para Academia, parte do trabalho já estará feita, pois tenho
                 alunos nos dois.
-                A >> Confiável
+                A >> Confiável *
                 B >> Natural
                 C >> Manutenível
                 D >> Reutilizavel
     DESAFIO 007:
                 >>> Se precisar adicionar uma nova funcionalidade ao 
                 sistema, consigo fazer isso com grande facilidade?
-                A >> Natural
+                A >> Natural *
                 B >> Extensível
                 C >> Reutilizável
                 D >> Oportuno
@@ -134,7 +134,7 @@ As 6 VANTAGENS da POO: Programação Orientada a Objetos - Curso Python POO: Aul
                 uma da outra ao mesmo tempo se o planejamento for 
                 seguido.
                 A >> Oportuno
-                B >> Reutilizável
+                B >> Reutilizável *
                 C >> Confiável
                 D >> Manutenível
     DESAFIO 009:
@@ -143,16 +143,116 @@ As 6 VANTAGENS da POO: Programação Orientada a Objetos - Curso Python POO: Aul
                 programar.
                 A >> Natural
                 B >> Extensível
-                C >> Oportuno
+                C >> Oportuno *
                 D >> Reutilizável
     DESAFIO 010:
                 >>> Posso uma funcionalidade trabalha e tudo continua 
                 funcionando como antes.
                 A >> Oportuno
-                B >> Reutilizável
+                B >> Reutilizável *
                 C >> Confiável
                 D >> Natural
 ================================================================================
 POO para Iniciantes: Guia Definitivo - Classes, Objetos, Atributos, etc - Curso Python POO: Aula 03
-
-
+    > O que é um objeto?
+            No mundo real, "Carro" é um conceito (uma classe). 
+            O carro específico que está estacionado na sua garagem — com uma cor real, 
+            uma placa real e uma velocidade atual — é um objeto (também chamado de instância).
+        --------------------------------------------------------------------------------------
+        Em Python, um objeto é uma estrutura de dados que junta duas coisas:
+            1 Atributos (Características): O que o objeto sabe sobre si mesmo (dados/variáveis).
+            2 Métodos (Ações): O que o objeto sabe fazer (funções).
+        --------------------------------------------------------------------------------------
+        Nesse exemplo, meu_cachorro é o objeto. Ele ocupa um lugar na memória do seu 
+        computador e guarda as informações específicas do "Thor". 
+        Se você criasse um outro_cachorro = Cachorro("Luna", "Poodle"), 
+        seria um objeto completamente independente.
+        --------------------------------------------------------------------------------------
+        <Tudo em Python é um objeto!>
+            Essa é uma frase famosa na programação. Quando você cria uma variável simples 
+            como texto = "Olá", você acabou de criar um objeto da classe str (string). 
+            Por isso você consegue fazer coisas como texto.upper(), 
+            que é um método que essa classe possui.
+        --------------------------------------------------------------------------------------
+        DEFINIÇÃO DE OBJETO:
+            >>> "Coisa material ou abstrata que é feita a partir de um
+            modelo e pode ser descrista por meio das suas características,
+            comportamento e estado atual."
+        --------------------------------------------------------------------------------------
+            tamanho     = 8.2cm    -
+            massa       = baumilha -
+            peso        = 54.3g    -   estado
+            cobertura   = pistache -
+            cozido      = true     -
+            temperatura = 55ºC     -
+        --------------------------------------------------------------------------------------
+        Objetos Abstratos?
+            > Uma consulta marcada no médico
+            > Um processo de venda 
+            > Um compromisso ou reunião
+            > Uma aula na faculdade
+            > Uma transação bancária
+            > Uma reserva da voo
+            > Um erro do sistema
+        --------------------------------------------------------------------------------------
+    > O que é uma classe?
+        ------------------
+         <Biscoitocoração>
+        ------------------
+            +tamanho     -
+            +massa       -
+            +cobertura   -   
+            +peso        -  atributos
+            +cobertura   -
+            +cozido      -
+            +temperatura -
+        -------------------
+            +cozinhar()  -
+            +congelar()  -
+            +cobrir()    -   
+            +confeitar() -   métodos
+            +podeComer() -
+            +comer()     -
+        -------------------
+    FRASE:
+        >>> "Um objeto é uma instância de uma classe."
+    --------------------------------------------------
+    > Quando acontece um instanciamento?
+    > Sabe definir o estado de um objeto? 
+    --------------------------------------------------
+    DESAFIO 011:
+        Qual dos objetos abaixo seria o único abstrato da lista?
+        A >> Sensor
+        B >> Robô
+        C >> Notificação *
+        D >> Livro
+    DESAFIO 012:
+        Na a teoria de 00, o termo usado para o ato de fazer um
+        objeto existir, a partir de um modelo se chama:
+        A >> instanciar *
+        B >> classificar
+        C >> objetificar
+        D >> forjar
+    DESAFIO 013
+        Todo obojeto tem uma lista de atividades que podem ser feitas
+        com ele ou que ele pode desempenhar sozinho, que são:
+        A >> atributos *
+        B >> métodos
+        C >> classes
+        D >> instâncias
+    DESAFIO 014:
+        Ao conjunto de todos os valores de atributos de um objeto 
+        em um determinado momento, damos o nome de:
+        A >> identidade
+        B >> instância
+        C >> método *
+        D >> estado
+    DESAFIO 015:
+        Coloque nos comentários a estrutura de dois objetos: um 
+        concreto e outro abstrato. Inclua também seus principais
+        atributos, métodos de estado para cada uma deles.
+        ========================================================
+        CONCRETO ################# ABSTRATO
+        Um livro ################# Agendar uma emtrevista
+        ========================================================
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------    
