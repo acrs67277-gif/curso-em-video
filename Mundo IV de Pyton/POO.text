@@ -178,14 +178,14 @@ POO para Iniciantes: Guia Definitivo - Classes, Objetos, Atributos, etc - Curso 
             >>> "Coisa material ou abstrata que é feita a partir de um
             modelo e pode ser descrista por meio das suas características,
             comportamento e estado atual."
-        --------------------------------------------------------------------------------------
+        ------------------------------------------------------------------
             tamanho     = 8.2cm    -
             massa       = baumilha -
             peso        = 54.3g    -   estado
             cobertura   = pistache -
             cozido      = true     -
             temperatura = 55ºC     -
-        --------------------------------------------------------------------------------------
+        --------------------------------------------------------------------
         Objetos Abstratos?
             > Uma consulta marcada no médico
             > Um processo de venda 
@@ -194,7 +194,7 @@ POO para Iniciantes: Guia Definitivo - Classes, Objetos, Atributos, etc - Curso 
             > Uma transação bancária
             > Uma reserva da voo
             > Um erro do sistema
-        --------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------
     > O que é uma classe?
         ------------------
          <Biscoitocoração>
@@ -252,7 +252,9 @@ POO para Iniciantes: Guia Definitivo - Classes, Objetos, Atributos, etc - Curso 
         concreto e outro abstrato. Inclua também seus principais
         atributos, métodos de estado para cada uma deles.
         ========================================================
-        CONCRETO ################# ABSTRATO
-        Um livro ################# Agendar uma emtrevista
-        ========================================================
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+        CONCRETO ######### ABSTRATO
+        --------------------------------------------   
+        Um livro ############ Agendar uma entrevista
+            (Atributos)             (Métodos)
+         + conhercimento            + restalrador()
+        --------------------------------------------  
