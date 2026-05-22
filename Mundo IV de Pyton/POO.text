@@ -92,7 +92,7 @@ Crise do Software: O motivo do surgimento da POO - Curso Python POO: Aula 01
                B >> Algorithms / Digital
                C >> Analytisis / Default
                D >> Analysis / Design *
-==============================================================================
+==================================================================================
 As 6 VANTAGENS da POO: Programação Orientada a Objetos - Curso Python POO: Aula 02
  TERMO COMERNada (características DE UM SISTEMA ORIENTADO OBJETO)
     > Confiável
@@ -152,7 +152,7 @@ As 6 VANTAGENS da POO: Programação Orientada a Objetos - Curso Python POO: Aul
                 B >> Reutilizável *
                 C >> Confiável
                 D >> Natural
-================================================================================
+===================================================================================================
 POO para Iniciantes: Guia Definitivo - Classes, Objetos, Atributos, etc - Curso Python POO: Aula 03
     > O que é um objeto?
             No mundo real, "Carro" é um conceito (uma classe). 
@@ -257,4 +257,32 @@ POO para Iniciantes: Guia Definitivo - Classes, Objetos, Atributos, etc - Curso 
         Um livro ############ Agendar uma entrevista
             (Atributos)             (Métodos)
          + conhercimento            + restalrador()
-        --------------------------------------------  
+        --------------------------------------------
+============================================================================================
+Python Orientado a Objetos: Criando Classes e Objetos na Prática - Curso Python POO: Aula 04
+    >>> Qual é a diferença entre uma objeto e variável?
+    >>> Quando vamos colocar a mão na massa?
+    >>> Como faço pra declarar uma classe?
+    >>> Como instancio um objeto a partir de uma classe?
+FRASE:
+    "Os objetos são variáveis evoluídas"
+TEORIA:
+    OBJETO: 
+        Assim, um objeto é uma variável que além de guardar dados,
+        pode executar funcionalidades.
+        Em outras palavras, objetos são variáveis que, além de guardar
+        dados, podem fazer coisas com esses dados.
+-------------------------------------------------------------------
+EXEMPLO:
+    # Declaração da classe
+        class MinhaClasse:
+        -----------------
+        # Atributos
+        -----------------
+        # Métodos
+        -----------------
+    # Declaração dos objetos
+        obj= MinhaClasse()---> Instanciação---> Métado Construtor
+                                                def__init__(self)
+                                                
+
