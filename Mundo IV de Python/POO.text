@@ -17,6 +17,37 @@ POO com Python
             Além disso, você não pode criar um objeto diretamente dela.
             Veja este exemplo prático: imagine que estamos criando um sistema para ligar eletrodomésticos.
         > Encapsulamento
+            O Encapsulamento é o pilar da Programação Orientada a Objetos que serve para proteger e 
+            blindar os dados de um objeto.
+
+            Pense em uma cápsula de remédio: o remédio (os dados sensíveis) está trancado lá dentro. 
+            Você não interage diretamente com o pó químico; você apenas engole a cápsula (a interface externa).
+
+            No código, encapsular significa proibir que outras partes do programa alterem ou 
+            vejam os atributos de um objeto diretamente, forçando tudo a passar por "filtros de segurança" (métodos).
+
+            O Problema: Código Sem Encapsulamento
+            Imagine uma classe ContaBancaria. Sem encapsulamento, qualquer um pode fazer isso:
+            Isso quebrou o sistema. Um saldo nunca deveria ser negativo dessa forma sem passar por uma validação de cheque especial, por exemplo.
+
+            A Solução: Como o Python faz o Encapsulamento?
+            Diferente de linguagens como Java ou C#, o Python não tem as palavras-chave private ou public. 
+            Em vez disso, o Python usa uma convenção de nomes baseada em sublinhados (_).
+
+            _um_sublinhado (Protegido/Aviso): É apenas um aviso amigável para outros programadores: 
+            "Ei, por favor, não mexa nisso direto". O Python não bloqueia o acesso.
+
+            __dois_sublinhados (Privado/Bloqueado): O Python aplica um mecanismo chamado Name Mangling. 
+            Ele muda o nome interno do atributo para dificultar (e bloquear) o acesso direto de fora da classe.
+
+            Por que o Encapsulamento é importante?
+            1 Proteção: Impede alterações acidentais ou maliciosas que quebrem a lógica do negócio 
+            (como saldos negativos, idades menores que zero, etc).
+
+            2 Facilidade de Manutenção: Se a regra de como o depósito funciona mudar 
+            no futuro, você só precisa alterar o código dentro do método depositar. 
+            O restante do sistema que usa a conta continua funcionando sem saber da mudança.
+            
         > Heranca
         > Polimorfismo
     Conceitos
